@@ -4,7 +4,7 @@ import Footer from "./footer";
 const Layout = ({ children }) => {
   return (
     <>
-      <Flex>
+      <Box>
         <Header />
         <Box style={{
           height: 'calc(100vh - 187px)',
@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
         }
         }>{children}</Box>
         <Footer />
-      </Flex>
+      </Box>
     </>
   );
 };
