@@ -13,8 +13,8 @@ const Home = () => {
 
   return (
     <>
-      <Box margin="20px" w="70%">
-        <Text textAlign={"center"} pb={"20px"} fontSize='6xl'>Set header and footer name using context</Text>
+      <Box margin="20px" w="50%">
+        <Text textAlign={"center"} pb={"20px"} fontSize='3xl'>Set header/footer name using context</Text>
         <Flex justify={"space-evenly"} flexDir={"row"}>
           <Button onClick={handleButtonClick} value="Next JS app">
             Next JS app
